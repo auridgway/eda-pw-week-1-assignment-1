@@ -18,12 +18,14 @@ h1{
 p{
     color:blanchedalmond;
     font-style: italic;
+    text-align: center;
 }
 /* Put a border around your image */
 img{
     border-width: 3px;
     border-color: azure;
     border-style: double;
+    align-self: center;
 }
 /* Change the font-family of your list */
 ol{
