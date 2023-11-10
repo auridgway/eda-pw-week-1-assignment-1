@@ -1,13 +1,17 @@
 /* Give your page a fun background color */
 body{
-    background-color:cadetblue;
+    background-image: linear-gradient(cadetblue, white, cadetblue);
 }
 /* Make the header and footer a different color from the background */
 header{
-    background-color: cornflowerblue;
+    font-style: italic;
+    text-align: center;
+    font-size: 72px;
+    background-image: radial-gradient(circle, blueviolet,white);
+    
 }
 footer{
-    background-color: cornflowerblue;
+    background-image: radial-gradient(circle, blueviolet,white);
 }
 
 /* Align the h1 containing your name in the center of the header*/
@@ -16,7 +20,6 @@ h1{
 }
 /* Make your p tag a different color and italic */
 p{
-    color:blanchedalmond;
     font-style: italic;
     text-align: center;
 }
@@ -25,9 +28,14 @@ img{
     border-width: 3px;
     border-color: azure;
     border-style: double;
-    align-self: center;
+    border-radius: 50px 50px 50px 50px;
+    border-width: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 /* Change the font-family of your list */
 ol{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
